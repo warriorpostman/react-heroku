@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Demonstrate deploy React web app to Heroku",
   "main": "index.js",
+  "engines": {
+    "node": "6.9.1"
+  },
   "scripts": {
     "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node ./src/app.js",
