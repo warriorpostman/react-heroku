@@ -4,7 +4,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <h1>Change me</h1>
+        <h1>This is a React component (...on Heroku, hopefully)!</h1>
       </div>
     )
   }
